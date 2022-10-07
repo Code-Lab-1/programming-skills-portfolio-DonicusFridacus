@@ -1,0 +1,7 @@
+#Exercise 5: Compute Area of Circle
+
+pi = 3.14
+r = int(input("Enter the radius: "))
+area = pi * r**2
+
+print("The area of the circle based on your radius is:", area)
