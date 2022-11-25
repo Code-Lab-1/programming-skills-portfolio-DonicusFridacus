@@ -1,14 +1,12 @@
 #Exercise 7: New Value
 
-student = {
-"Name":"Jadon Maki Baldoza Aguhob", 
+student = {"Name":"Jadon Maki Baldoza Aguhob", 
 "Age":"17", 
 "Class":"CC:Year 1", 
 "Gender":"Male", 
 "Nationality":"Filipino", 
 "Phone number":"0557546381", 
-"Email":"jadonaguhob@gmail.com"
-}
+"Email":"jadonaguhob@gmail.com"}
 
 student.update({"Blood Type":"O"})
 print(student)
