@@ -2,14 +2,10 @@
 
 guests = ['C.S. Lewis', 'J.R.R. Tolkien', 'Joseph Stalin']
 
-name = guests[0].title()
-print(name + ", you are invited to dinner.")
 
-name = guests[1].title()
-print(name + ", you are invited to dinner.")
-
-name = guests[2].title()
-print(name + ", you are invited to dinner.")
+for i in range(0, 3):
+    name = guests[i].title()
+    print(name + ", you are invited to dinner.")
 
 name = guests[2].title()
 print("\nIt looks like " + name + " can't make it to dinner.")
@@ -20,54 +16,36 @@ guests.insert(1, 'Jeruel Aguhob')
 name = guests[0].title()
 print("\n" + name + ", you are invited to dinner.")
 
-name = guests[1].title()
-print(name + ", you are invited to dinner.")
-
-name = guests[2].title()
-print(name + ", you are invited to dinner.")
+for i in range(1,3):
+    name = guests[i].title()
+    print(name + ", you are invited to dinner.")
 
 print("\nWe have received a bigger table for more guests.")
 guests.insert(0, 'Van Gogh')
 guests.insert(2, 'Ryan Gosling')
 guests.append('Lance Bautista')
 
-name = guests[0].title()
-print(name + ", you are invited to dinner.")
-
-name = guests[1].title()
-print(name + ", you are invited to dinner.")
-
-name = guests[2].title()
-print(name + ", you are invited to dinner.")
-
-name = guests[3].title()
-print(name + ", you are invited to dinner.")
-
-name = guests[4].title()
-print(name + ", you are invited to dinner.")
-
-name = guests[5].title()
-print(name + ", you are invited to dinner.")
+for i in range(0,6):
+    name = guests[i].title()
+    print(name + ", you are invited to dinner.")
 
 print("\nWe are sorry to inform you that we can only invite two people to dinner.")
 
 name = guests.pop()
-print("Sorry, " + name.title() + " there's no more room at the table.")
+print("Sorry, " + name.title() + ", there's no more room at the table.")
 
 name = guests.pop()
-print("Sorry, " + name.title() + " there's no more room at the table.")
+print("Sorry, " + name.title() + ", there's no more room at the table.")
 
 name = guests.pop()
-print("Sorry, " + name.title() + " there's no more room at the table.")
+print("Sorry, " + name.title() + ", there's no more room at the table.")
 
 name = guests.pop()
-print("Sorry, " + name.title() + " there's no more room at the table.")
+print("Sorry, " + name.title() + ", there's no more room at the table.")
 
-name = guests[0].title()
-print(name + ", you are invited to dinner.")
-
-name = guests[1].title()
-print(name + ", you are invited to dinner.")
+for i in range(0,2):
+    name = guests[i].title()
+    print(name + ", you are invited to dinner.")
 
 del(guests[0])
 del(guests[0])
