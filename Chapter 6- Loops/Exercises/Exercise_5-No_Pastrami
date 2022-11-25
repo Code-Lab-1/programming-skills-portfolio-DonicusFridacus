@@ -1,0 +1,20 @@
+#Exercise 5: No Pastrami
+
+sandwichorders = [
+    'pastrami', 'veggie', 'grilled cheese', 'pastrami',
+    'turkey', 'roast beef', 'pastrami']
+finishedsandwiches = []
+
+print("We are out of pastrami. Sorry for the inconvenience.")
+while 'pastrami' in sandwichorders:
+    sandwichorders.remove('pastrami')
+
+print("\n")
+while sandwichorders:
+    current_sandwich = sandwichorders.pop()
+    print("Your " + current_sandwich + " sandwich is in progress.")
+    finishedsandwiches.append(current_sandwich)
+
+print("\n")
+for sandwich in finishedsandwiches:
+    print("A " + sandwich + " sandwich has been finished.")
