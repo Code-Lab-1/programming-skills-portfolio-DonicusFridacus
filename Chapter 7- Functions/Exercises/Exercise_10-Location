@@ -1,0 +1,6 @@
+#Exercise 10: Location
+
+def location(country, a):
+  print("I am living in the " + country + a)
+
+location(str(input()), str(input()))

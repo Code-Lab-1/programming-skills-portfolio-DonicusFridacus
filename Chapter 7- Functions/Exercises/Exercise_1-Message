@@ -1,0 +1,7 @@
+#Exercise 1: Message
+
+def display_message():
+    msg = "I am a Creative Computing Student."
+    print(msg)
+
+display_message()

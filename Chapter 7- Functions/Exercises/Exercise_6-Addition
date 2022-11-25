@@ -1,0 +1,7 @@
+#Exercise 6: Addition
+
+def add(a, b):
+  sum = a + b
+  print(sum)
+
+add(int(input()), int(input()))
