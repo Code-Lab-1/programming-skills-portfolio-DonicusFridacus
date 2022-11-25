@@ -1,0 +1,7 @@
+#Exercise 9: Change List
+
+names = ["Jeruel", "Bathsheba", "Jadon", "Jared", "MZ"]
+
+names[2:4] = "Maki", "Mikael"
+
+print(names)
