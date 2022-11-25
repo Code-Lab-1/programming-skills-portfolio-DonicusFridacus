@@ -1,0 +1,6 @@
+#Exercise 8: Use Variables to Compute Volume of Square
+
+s = 78
+V = s**3
+
+print("This is the volume of a square with 78 inch sides:", V)

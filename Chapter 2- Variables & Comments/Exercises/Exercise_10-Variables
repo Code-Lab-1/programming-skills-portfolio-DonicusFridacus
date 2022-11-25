@@ -1,0 +1,7 @@
+#Exercise 10: Variables
+
+num1 = 78
+num2 = 76
+diff = num1 - num2
+
+print(diff)

@@ -1,0 +1,5 @@
+#Exercise 4: Favorite Number
+
+favnum = 12
+
+print(f"My favorite number is \"{favnum}\"")
