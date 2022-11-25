@@ -1,0 +1,9 @@
+#Exercise 9: Hello, Admin
+
+usernames = ['Frico', 'Clash', 'Admin']
+
+for username in usernames:
+    if username == 'Admin':
+        print("Hello, Admin, status report?")
+    else:
+        print("Hello again, " + username + ", you logged into a session.")

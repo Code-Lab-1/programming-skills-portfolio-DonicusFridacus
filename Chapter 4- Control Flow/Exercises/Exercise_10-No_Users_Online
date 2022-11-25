@@ -1,0 +1,12 @@
+#Exercise 10: No Users Online
+
+usernames = []
+
+if usernames:
+    for username in usernames:
+        if username == 'Admin':
+            print("Hello, Admin, status report?")
+        else:
+            print("Hello again, " + username + ", you logged into a session.")
+else:
+    print("No Users Online.")
