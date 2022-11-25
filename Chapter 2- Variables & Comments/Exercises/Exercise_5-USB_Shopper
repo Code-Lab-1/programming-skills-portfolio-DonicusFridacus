@@ -1,0 +1,12 @@
+#Exercise 5: USB Shopper
+
+money = 50
+usb_price = 6 
+
+usb_amount = int(50 / 6)
+money_left = 50 % 6
+
+print(f"""Budget: {money} pounds
+USB price: {usb_price} pounds each
+Purchasable USBs within budget: {usb_amount}
+Money left: {money_left} pounds""")

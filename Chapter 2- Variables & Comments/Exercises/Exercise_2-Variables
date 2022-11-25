@@ -1,0 +1,5 @@
+#Exercise 2: Variables
+
+quote = """\"If more of us valued food and cheer and song above hoarded
+gold, it would be a merrier world.\""""
+print(quote + " - J.R.R. Tolkien")

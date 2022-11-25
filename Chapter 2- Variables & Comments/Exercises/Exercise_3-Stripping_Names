@@ -1,0 +1,8 @@
+#Exercise 3: Stripping Names
+
+name = " Jadon Aguhob "
+
+print(f'\tUntouched value = \'{name}\'\n')
+print(f'\tAfter lstrip() = \'{name.lstrip()}\'\n')
+print(f'\tAfter rstrip() = \'{name.rstrip()}\'\n')
+print(f'\tAfter strip() = \'{name.strip()}\'\n')

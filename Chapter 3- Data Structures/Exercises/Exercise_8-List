@@ -1,0 +1,5 @@
+#Exercise 8: List
+
+names = ["Jeruel", "Bathsheba", "Jadon", "Jared", "MZ"]
+
+print(names)

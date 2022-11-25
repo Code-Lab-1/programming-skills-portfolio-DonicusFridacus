@@ -1,0 +1,8 @@
+#Exercise 3: T-Shirt
+
+def make_shirt(size, message):
+    print("\nWhat size would you like? " + size)
+    print('What would you like it to say? "' + message + '"')
+
+make_shirt('large', 'Math is interesting')
+make_shirt(message="Can you read my mind?", size='medium')

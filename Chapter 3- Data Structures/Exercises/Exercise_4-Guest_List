@@ -1,0 +1,12 @@
+#Exercise 4: Guest List
+
+guests = ['C.S. Lewis', 'J.R.R. Tolkien', 'Joseph Stalin']
+
+name = guests[0].title()
+print(name + ", you are invited to dinner.")
+
+name = guests[1].title()
+print(name + ", you are invited to dinner.")
+
+name = guests[2].title()
+print(name + ", you are invited to dinner.")

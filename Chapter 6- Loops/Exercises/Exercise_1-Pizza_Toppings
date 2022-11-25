@@ -1,0 +1,11 @@
+#Exercise 1: Pizza Toppings
+
+topchoice = "\nPick your preferred topping..."
+topchoice += "\nEnter 'quit' after your choice: "
+
+while True:
+    topping = input(topchoice)
+    if topping != 'quit':
+        print("  You picked " + topping + ".")
+    else:
+        break

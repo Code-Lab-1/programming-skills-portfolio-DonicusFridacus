@@ -1,0 +1,12 @@
+#Exercise 7: Average and Percentage
+
+def ave(a, b, c, d):
+  ave = (a + b + c + d)/2
+  print("Average: ",  ave)
+
+def per(a, b, c, d):
+  per1 = a or b or c or d/ (a + b + c + d) * 100
+  print("Percentage: ", per1, "%")
+
+ave(int(input("Enter 4 numbers to find their average:\n" )), int(input()), int(input()), int(input()))
+per(int(input("Enter 4 numbers to find their percentage:\n")), int(input()), int(input()), int(input()))

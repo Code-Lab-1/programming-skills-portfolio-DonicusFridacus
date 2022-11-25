@@ -1,0 +1,35 @@
+#Exercise 5: Pets
+
+pets = []
+
+pet = {
+    'animal type': 'fish',
+    'name': 'Megamind',
+    'owner': 'Jadon',
+    'weight': 66,
+    'eats': 'krills',
+}
+pets.append(pet)
+
+pet = {
+    'animal type': 'parrot',
+    'name': 'Polly',
+    'owner': 'David',
+    'weight': 10,
+    'eats': 'crackers',
+}
+pets.append(pet)
+
+pet = {
+    'animal type': 'dog',
+    'name': 'Chewy',
+    'owner': 'Jeruel',
+    'weight': 89,
+    'eats': 'beef',
+}
+pets.append(pet)
+
+for pet in pets:
+    print("\nHere's what I know about " + pet['name'].title() + ":")
+    for key, value in pet.items():
+        print("\t" + key + ": " + str(value))

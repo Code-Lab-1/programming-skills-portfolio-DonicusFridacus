@@ -1,0 +1,9 @@
+#Exercise 6: Break Loop
+
+num = 1
+
+while (num > 0):
+    print(num)
+    num += 1
+    if (num == 1000):
+        break

@@ -1,0 +1,7 @@
+#Exercise 3: Infinity
+
+num = 1
+
+while (num > 0):
+    print(num)
+    num += 1

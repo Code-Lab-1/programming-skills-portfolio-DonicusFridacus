@@ -1,0 +1,27 @@
+#Exercise 5: Change Guest List
+
+guests = ['C.S. Lewis', 'J.R.R. Tolkien', 'Joseph Stalin']
+
+name = guests[0].title()
+print(name + ", you are invited to dinner.")
+
+name = guests[1].title()
+print(name + ", you are invited to dinner.")
+
+name = guests[2].title()
+print(name + ", you are invited to dinner.")
+
+name = guests[2].title()
+print("\nIt looks like " + name + " can't make it to dinner.")
+
+del(guests[2])
+guests.insert(1, 'Jeruel Aguhob')
+
+name = guests[0].title()
+print("\n" + name + ", you are invited to dinner.")
+
+name = guests[1].title()
+print(name + ", you are invited to dinner.")
+
+name = guests[2].title()
+print(name + ", you are invited to dinner.")

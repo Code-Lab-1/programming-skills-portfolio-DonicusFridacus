@@ -1,0 +1,7 @@
+#Exercise 9: Print Difference of Three Numbers
+
+num1 = 7
+num2 = 6
+num3 = 5
+
+print(num1 - num2 - num3)

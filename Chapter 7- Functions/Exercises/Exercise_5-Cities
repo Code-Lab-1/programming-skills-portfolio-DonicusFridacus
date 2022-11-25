@@ -1,0 +1,9 @@
+#Exercise 5: Cities
+
+def describe_city(city, country='Davao'):
+    msg = city.title() + " is in " + country.title() + "."
+    print(msg)
+
+describe_city('Mati')
+describe_city('reykjavik', 'iceland')
+describe_city('Ohio', 'America')

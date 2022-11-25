@@ -1,0 +1,9 @@
+#Exercise 10: Increase List
+
+names = ["Jeruel", "Bathsheba", "Jadon", "Jared", "MZ"]
+
+names.insert(0, "Jireh")
+names.insert(3, "Joy")
+names.insert(5, "Jasper")
+
+print(names)

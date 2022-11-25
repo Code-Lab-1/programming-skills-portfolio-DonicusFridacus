@@ -1,0 +1,12 @@
+#Exercise 2: Greetings
+
+names = ['Josh', 'Lance', 'Andreev']
+
+msg = "Hello there, " + names[0].title() + "!"
+print(msg)
+
+msg = "Hello there, " + names[1].title() + "!"
+print(msg)
+
+msg = "Hello there, " + names[2].title() + "!"
+print(msg)

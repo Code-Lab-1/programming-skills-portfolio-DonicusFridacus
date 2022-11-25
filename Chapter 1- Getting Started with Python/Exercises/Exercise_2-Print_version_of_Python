@@ -1,0 +1,7 @@
+#Exercise 2: Print the Version of Python
+
+import sys
+print("Python version:")
+print (f"{sys.version}\n")
+print("Version info:")
+print (f"{sys.version_info}\n")
