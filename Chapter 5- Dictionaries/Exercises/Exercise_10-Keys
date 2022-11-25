@@ -1,0 +1,13 @@
+#Exercise 10: Keys
+
+#Exercise 9: Remove Value
+
+student = {"Name":"Jadon Maki Baldoza Aguhob", 
+"Age":"17", 
+"Class":"CC:Year 1", 
+"Gender":"Male", 
+"Nationality":"Filipino", 
+"Phone number":"0557546381", 
+"Email":"jadonaguhob@gmail.com"}
+
+print(len(student))
