@@ -1,0 +1,7 @@
+#Exercise 3: Your Own List
+
+car = ["Honda", "Hyundai", "Porsche", "Peugot", "Lincoln", "Nissan", "Audi"]
+
+print("I destroyed a", car[2], "with a brick.")
+print("I was caught speeding with my new", car[5])
+print("Our family owns and drives an", car[6])

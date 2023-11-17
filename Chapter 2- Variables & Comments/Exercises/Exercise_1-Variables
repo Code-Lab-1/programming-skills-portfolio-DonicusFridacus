@@ -1,0 +1,7 @@
+#Exercise 1: Variables
+
+msg = "Hello, World"
+print(msg)
+
+msg = "Goodbye, World"
+print(msg)

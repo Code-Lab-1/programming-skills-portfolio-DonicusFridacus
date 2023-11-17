@@ -1,0 +1,13 @@
+#Exercise 4: Deli
+
+sandwichorder = ['veggie', 'grilled cheese', 'turkey', 'roast beef']
+finishedsandwiches = []
+
+while sandwichorder:
+    current_sandwich = sandwichorder.pop()
+    print("Your " + current_sandwich + " sandwich is in progress.")
+    finishedsandwiches.append(current_sandwich)
+
+print("\n")
+for sandwich in finishedsandwiches:
+    print("A " + sandwich + " sandwich has been finished.")

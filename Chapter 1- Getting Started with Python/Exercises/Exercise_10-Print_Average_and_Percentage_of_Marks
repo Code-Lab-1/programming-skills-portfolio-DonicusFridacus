@@ -1,0 +1,17 @@
+#Exercise 10: Print Average and Percentage of Marks
+
+name = input("Enter your name: ")
+
+math = int(input("Enter your marks for Math: "))
+sci = int(input("Enter your marks for Science: "))
+eng = int(input("Enter your marks for English: "))
+soci_stud = int(input("Enter your marks for Social Studies: "))
+hist = int(input("Enter your marks for History: "))
+
+marks_obtained = math + sci + eng + soci_stud + hist
+total_marks = 500
+average = marks_obtained / 5
+percentage = (marks_obtained / total_marks) * 100
+print(" ")
+print("Average of overall marks: ", average)
+print("Percentage of overall marks: ", percentage,"%")

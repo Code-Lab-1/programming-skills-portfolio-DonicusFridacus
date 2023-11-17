@@ -1,0 +1,5 @@
+#Exercise 7: Print Input of User
+
+name = str(input("Enter your name: "))
+
+print("Your name:", name)

@@ -1,0 +1,10 @@
+#Exercise 4: Large Shirts
+
+def make_shirt(size='large', message='I love Python!'):
+    """Summarize the shirt that's going to be made."""
+    print("\nWhat size would you like? " + size)
+    print('What would you like it to say? "' + message + '"')
+
+make_shirt()
+make_shirt(size='medium')
+make_shirt('small', 'Why does a Java developer need glasses? Because he cannot C#.')

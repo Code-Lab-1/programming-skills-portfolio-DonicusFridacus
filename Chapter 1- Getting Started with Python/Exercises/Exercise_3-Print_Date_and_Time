@@ -1,0 +1,6 @@
+#Exercise 3: Print Date and Time
+
+import time 
+
+current_time = time.ctime()
+print(current_time)

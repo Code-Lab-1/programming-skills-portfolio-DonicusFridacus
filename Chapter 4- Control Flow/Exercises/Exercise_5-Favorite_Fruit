@@ -1,0 +1,14 @@
+#Exercise 5: Favorite Fruit
+
+favfruits = ['Bananas', 'Strawberries', 'Apples']
+
+if 'Bananas' in favfruits:
+    print("You like bananas!")
+if 'Apples' in favfruits:
+    print("You like apples!")
+if 'Pineapples' in favfruits:
+    print("You like pineapples!")
+if 'Dragonfruits' in favfruits:
+    print("You like dragonfruits!")
+if 'Strawberries' in favfruits:
+    print("You like strawberries!")

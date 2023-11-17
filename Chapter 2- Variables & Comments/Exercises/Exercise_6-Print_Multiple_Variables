@@ -1,0 +1,10 @@
+#Exercise 6: Print Multiple Variables
+
+name = "Jadon Aguhob"
+age = 17
+contact_number = 1378123913
+email = "user@domain.e"
+department = "Creative Computing"
+level = "Level 4"
+
+print(name, age, contact_number, email, department, level)
